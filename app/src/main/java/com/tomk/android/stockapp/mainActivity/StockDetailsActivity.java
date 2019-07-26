@@ -95,7 +95,7 @@ public class StockDetailsActivity extends AppCompatActivity {
         maxValue.setText(Double.toString(totalMax));
 
         dateLBL = findViewById(R.id.dateLBL);
-        dateLBL.setText("Date: ");
+        dateLBL.setText("Last trade: ");
 
         dateTV = findViewById(R.id.dateTV);
         dateTV.setText(Util.dateToString(MainStocksActivity.stocksResponse.getMetaData().getLastRefreshedDate()));

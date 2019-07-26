@@ -47,64 +47,48 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             custom:layout_column="0"
-            custom:layout_row="0" />
+            custom:layout_row="0"
+            custom:layout_gravity="left"/>
 
         <TextView
             android:id="@+id/minValueTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             custom:layout_column="1"
-            custom:layout_row="0" />
+            custom:layout_row="0"
+            custom:layout_gravity="center"/>
 
         <TextView
             android:id="@+id/maxLBL"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             custom:layout_column="0"
-            custom:layout_row="1" />
+            custom:layout_row="1"
+            custom:layout_gravity="left"/>
 
         <TextView
             android:id="@+id/maxTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             custom:layout_column="1"
-            custom:layout_row="1" />
-
+            custom:layout_row="1"
+            custom:layout_gravity="center"/>
 
         <TextView
             android:id="@+id/dateLBL"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             custom:layout_column="0"
-            custom:layout_row="2" />
+            custom:layout_row="2"
+            custom:layout_gravity="left"/>
 
         <TextView
             android:id="@+id/dateTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             custom:layout_column="1"
-            custom:layout_row="2" />
-
-        <!--<TextView-->
-        <!--android:id="@+id/stockSymbolValue"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--custom:layout_column="1"-->
-        <!--custom:layout_row="2" />-->
-
-        <!--<TextView-->
-        <!--android:id="@+id/stockNameLabel"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--custom:layout_column="0"-->
-        <!--custom:layout_row="3" />-->
-
-        <!--<TextView-->
-        <!--android:id="@+id/stockNameValue"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--custom:layout_column="1"-->
-        <!--custom:layout_row="3" />-->
+            custom:layout_row="2"
+            custom:layout_gravity="center_horizontal"/>
 
 
     </android.support.v7.widget.GridLayout>
