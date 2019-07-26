@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StockReport</string>
+    <string name="Stock_Report">Stock Report </string>
+    <string name="Stock_Symbol">Stock Symbol </string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="Volume">Volume</string>
+
+    <string name="Enter_Stock">Enter Stock</string>
+    <string name="ConnectionProblems">Connection Problems</string>
+    <string name="Click_here_to_try_again">Click here to try again</string>
+    <string name="Check_Wi_Fi">Check Wi Fi</string>
+    <string name="Unexpected_Error">Connection Problem</string>
+    <string name="City_Not_Found">City Not Found</string>
+    <string name="spinner_title">Select symbol</string>
+
+
+    <string-array name="stocks_array">
+        <item>AAPL</item>
+        <item>IBM</item>
+        <item>GOOGL</item>
+        <item>EBAY</item>
+        <item>FB</item>
+        <item>AMZN</item>
+        <item>MSFT</item>
+        <item>PEP</item>
+    </string-array>
+    <string name="title_activity_main_stocks">Stocks</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_stock_details">StockDetailsActivity</string>
+
+</resources>
+
+
+    <!--private String exchangeName;--><!--private String stockSymbol;--><!--private int timeMarketOpen;--><!--private int timeMarketClose;--><!--private int dataTimeInterval;--><!--private int intervalDateOffset;--><!--private long intervalDateValue;--><!--private Date intervalDate;--><!--private double intervalClose;--><!--private double intervalHigh;--><!--private double intervalLow;--><!--private double intervalOpen;--><!--private int intervalVolume;-->

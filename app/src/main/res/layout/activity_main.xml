@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ResAuto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/activity_toolbar"
+        style="@style/Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/interval_buttons_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/StockSymbolTextView"
+                style="@style/Dialog.TitleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <GridLayout
+        android:id="@+id/tabs_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="1"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/firstTab"
+            android:layout_column="0"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill_horizontal"
+            android:textOff="Watch"
+            android:textOn="Watch"
+            android:textSize="20sp" />
+
+        <ToggleButton
+            android:id="@+id/secondTab"
+            android:layout_column="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill_horizontal"
+            android:textOff="Watch List"
+            android:textOn="Watch List"
+            android:textSize="20sp" />
+    </GridLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/main_list_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Material">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:background">@color/background_color</item>
+    </style>
+
+    <style name="MainPanel" parent="AppTheme">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:background">@color/background_color</item>
+    </style>
+
+    <style name="Toolbar" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="titleTextColor">@color/title_text_color</item>
+        <item name="android:background">@color/toolbar_back_color</item>
+    </style>
+
+    <style name="Dialog.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:background">@color/background_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Dialog.Text" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="ErrorPanel" parent="AppTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:background">@color/background_color</item>
+    </style>
+
+    <style name="GraphChart" parent="AppTheme">
+        <item name="leftMargin" format="dimension" />
+        <item name="topMargin" format="dimension" />
+        <item name="rightMargin" format="dimension" />
+        <item name="bottomMargin" format="dimension" />
+        <item name="barWidth" format="dimension" />
+
+        <!--<item name="graphBackColor" format="color" />-->
+        <!--<item name="graphComponentBackColor" format="color" />-->
+        <!--<item name="boxColor" format="color" />-->
+        <!--<item name="textColor" format="color" />-->
+        <!--<item name="graphColor" format="color" />-->
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

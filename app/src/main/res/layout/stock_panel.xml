@@ -1,0 +1,107 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainPanel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/stock_description"
+        style="@style/MainPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="26sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/MainPanel">
+        <TextView
+            android:id="@+id/stock_symbol_label"
+            style="@style/MainPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/Stock_Symbol"/>
+
+        <TextView
+            android:id="@+id/stock_symbol"
+            style="@style/MainPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/stock_symbol_label"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+
+
+        <TextView
+            android:id="@+id/interval_open_label"
+            style="@style/MainPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/Stock_Symbol"/>
+
+        <TextView
+            android:id="@+id/interval_open"
+            style="@style/MainPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/stock_symbol_label"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:id="@+id/interval_close_label"
+            style="@style/MainPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/Stock_Symbol"/>
+
+        <TextView
+            android:id="@+id/interval_close"
+            style="@style/MainPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/interval_close_label"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+
+        <TextView
+            android:id="@+id/stock_volume_label"
+            style="@style/MainPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/Stock_Symbol"/>
+
+        <TextView
+            android:id="@+id/stock_volume"
+            style="@style/MainPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/stock_volume_label"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

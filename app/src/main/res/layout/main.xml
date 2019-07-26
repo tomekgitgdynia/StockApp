@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/graphLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="Collatz sequence for "
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/graphLblValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/graphLbl"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <com.tomgui.collatz.collatzconjecture.GraphChart
+        android:id="@+id/Graph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="100"
+        android:background="#fbfbfa"
+        android:padding="10dp"
+        custom:boxColor="#002222"
+        custom:graphBackColor="#fbfbfa"
+        custom:textColor="#0022ff"
+        custom:graphColor="#5555bb"
+        custom:graphComponentBackColor="#ebfafa"
+        custom:leftMargin="200dp"
+        custom:topMargin="10dp"
+        custom:rightMargin="10dp"
+        custom:bottomMargin="20dp"
+        custom:barWidth="2dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/enterNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:ems="4"
+            android:imeOptions="actionDone"
+            android:inputType="number" />
+
+        <ToggleButton
+            android:id="@+id/graphTypeTgl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/enterNumber"
+
+            android:textOff="Line graph"
+            android:textOn="Bar graph"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
